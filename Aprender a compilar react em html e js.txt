@@ -1,8 +1,4 @@
-Aprender a transpilar react em html e js.
-Escrever arquivo json -> para abrir um html puro.
-Criar a tela inicial poucos elementos bem simples.
 desenha a tela do app.
-atomic design -> estudar (não preocupar com template).
 pra contruir tela -> cssgrid  / flex ->  responsivo.
 Criar um servidor node.js.
 Acessar uma rota para testar se está funcionando.
