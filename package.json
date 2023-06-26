@@ -1,0 +1,47 @@
+{
+  
+    "scripts": {
+  
+      
+    "build": "babel src --out-dir dist"
+  
+    },
+  
+    "dependencies": {
+  
+      
+    "@babel/plugin-transform-react-jsx": "^7.22.5",
+  
+      
+    "react": "^18.2.0",
+  
+      
+    "react-dom": "^18.2.0",
+  
+      
+    "react-pdf": "^7.1.2",
+  
+      
+    "requirejs": "^2.3.6"
+  
+    },
+  
+    "devDependencies": {
+  
+      
+    "@babel/cli": "^7.22.5",
+  
+      
+    "@babel/core": "^7.22.5",
+  
+      
+    "@babel/plugin-transform-arrow-functions": "^7.22.5",
+  
+      
+    "@babel/preset-env": "^7.22.5",
+  
+      
+    "@babel/preset-react": "^7.22.5"
+  
+    }
+}
