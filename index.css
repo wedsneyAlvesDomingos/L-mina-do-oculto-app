@@ -4,7 +4,7 @@
 }
 
 body{
-    background:rgb(37, 37, 39);
+    background:rgb(35, 35, 37);
     background-size:cover;
     color: antiquewhite;
     font-family: 'Ysabeau SC', sans-serif;;
@@ -16,13 +16,14 @@ body{
     min-width: 600px;
     width:  100% ;
     height: 95vh;
-    background-image: url(background-image.png);
-    overflow: hidden;  
+    background-image: url(landing-page.png);
+    background-size:cover;
+    overflow:hidden;  
 }
 
 #root{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin: 0;
     padding: 0;
     max-height: 600px;
@@ -34,11 +35,9 @@ body{
     display: flex;
     flex-direction: row;
     height: 80%;
-    width: 70%;
-    justify-content: center;
-    align-content: center;
+    width: 100%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 3%;
     padding: 2%;
     box-sizing: content-box;
     max-height: 600px;
@@ -83,7 +82,7 @@ height: 40%;
 .clique{
     font-size: 1em;
     color: rgb(241, 219, 190);
-    padding: 2%;
+    padding-top: 2%;
     text-decoration: none;
 }
 .botao-entrar{
