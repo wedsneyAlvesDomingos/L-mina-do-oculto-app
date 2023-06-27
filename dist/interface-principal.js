@@ -1,4 +1,4 @@
-const logo = '/assets/sword.png';
+const logo = '/sword.png';
 function Cabeçalho() {
   return /*#__PURE__*/React.createElement("div", null);
 }

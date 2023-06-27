@@ -1,5 +1,5 @@
 
-const logo= '/assets/sword.png'
+const logo= '/sword.png'
 function Cabeçalho() {
   return (
     <div>

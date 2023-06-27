@@ -1,4 +1,4 @@
-const logo = '/assets/sword.png';
+const logo = '/sword.png';
 function App() {
   return /*#__PURE__*/React.createElement("div", {
     className: "container"
