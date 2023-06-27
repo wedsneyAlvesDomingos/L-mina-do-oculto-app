@@ -1,5 +1,5 @@
 
-const logo= './sword.png'
+const logo= '/assets/sword.png'
 function App() {
   return (
     <div className="container">
