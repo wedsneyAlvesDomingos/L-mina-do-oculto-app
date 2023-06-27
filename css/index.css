@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Dragon-Hunter'; /*a name to be used later*/
+    src: url('/assets/DragonHunter-9Ynxj.otf'); /*URL to font*/
+}
+
+body{
+    background:rgb(35, 35, 37);
+    background-size:cover;
+    color: antiquewhite;
+    font-family: 'Ysabeau SC', sans-serif;;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-height: 600px;
+    min-width: 600px;
+    width:  100% ;
+    height: 95vh;
+    background-image: url(../landing-page.png);
+    background-size:cover;
+    overflow:hidden;  
+}
+
+#root{
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    max-height: 600px;
+    min-height: 600px;
+    width:  100vw ;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 2%;
+    box-sizing: content-box;
+    max-height: 600px;
+    min-height: 600px;
+   
+}
+.abertura{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    width: fit-content;
+    height: fit-content ;
+}
+
+.titulo-principal{
+
+font-size: 6em;
+font-family: 'Rakkas',cursive;
+
+letter-spacing: px;
+}
+
+.titulo-inicial{
+display: flex;
+flex-direction: column;
+height: 40%;
+}
+
+.bemvindo{
+    font-size: 2em;
+
+}
+.slogan{
+    width: 100%;
+    font-size: 1.4em;
+}
+.pdf-link{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Ysabeau SC', sans-serif;;
+}
+.clique{
+    font-size: 1em;
+    color: rgb(241, 219, 190);
+    padding-top: 2%;
+    text-decoration: none;
+}
+.botao-entrar{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    min-height: 600px;
+    background: url(../sword.png) no-repeat;
+   background-size: contain;
+   color: aliceblue;
+   text-align: end;
+   text-decoration: none;
+   align-self: flex-end;
+
+}.botao-entrar:hover{
+    cursor: pointer;
+}

@@ -1,5 +1,7 @@
 
-const logo= '/sword.png'
+import _ from 'lodash';
+
+const logo= '../sword.png'
 function App() {
   return (
     <div className="container">
