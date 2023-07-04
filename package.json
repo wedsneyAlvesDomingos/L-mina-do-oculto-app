@@ -36,6 +36,9 @@
      "@babel/plugin-transform-react-jsx": "^7.22.5",
     
          
+     "babel-loader": "^9.1.2",
+    
+         
      "lodash": "^4.17.21",
     
          

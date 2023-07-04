@@ -1,0 +1,1 @@
+(()=>{function e(){return React.createElement("div",null)}ReactDOM.render(React.createElement(e,null),document.getElementById("root1"))})();

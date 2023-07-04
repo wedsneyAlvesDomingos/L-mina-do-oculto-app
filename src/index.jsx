@@ -5,7 +5,7 @@ const logo= '../images/sword.png'
 function App() {
   return (
     <div className="container">
-     <a href="interface-principal.html" class="botao-entrar"></a>
+     <a href="../src/pages/interface-principal.html" class="botao-entrar"></a>
       <div className="abertura">
            <h1 className="titulo-principal">Lâmina Do Oculto</h1>
           
