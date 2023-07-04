@@ -2,8 +2,9 @@ const path = require('path');
 
 module.exports = {
   entry: {
+    
     index: './src/index.jsx',
-    outroArquivo: './src/interface-principal.js',
+    interfacePrincipal: './src/interface-principal.jsx',
    
   },
   output: {
