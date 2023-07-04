@@ -16,7 +16,7 @@ body{
     min-width: 600px;
     width:  100% ;
     height: 95vh;
-    background-image: url(../landing-page.png);
+    background-image: url(../images/landing-page.png);
     background-size:cover;
     overflow:hidden;  
 }
@@ -90,7 +90,7 @@ height: 40%;
     height: 100%;
     width: 20%;
     min-height: 600px;
-    background: url(../sword.png) no-repeat;
+    background: url(../images/sword.png) no-repeat;
    background-size: contain;
    color: aliceblue;
    text-align: end;

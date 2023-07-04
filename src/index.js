@@ -1,5 +1,5 @@
 import _ from 'lodash';
-const logo = '../sword.png';
+const logo = '../images/sword.png';
 function App() {
   return /*#__PURE__*/React.createElement("div", {
     className: "container"
@@ -19,7 +19,7 @@ function App() {
   }, "O sistema de rpg L\xE2mina do Oculto \xE9 para todos os jogadores ", /*#__PURE__*/React.createElement("br", null), "que querem uma nova forma de jogar fantasia cl\xE1ssica"), /*#__PURE__*/React.createElement("p", {
     className: "clique"
   }, "Clique na espada ao lado para come\xE7ar", /*#__PURE__*/React.createElement("br", null), " Leia o documento em texto", /*#__PURE__*/React.createElement("a", {
-    href: "https://docs.google.com/document/d/1d3rvWryWF0ju3VQ1ehP0EpVZWnGRgAufeWAeYOhAet0/edit?usp=sharing",
+    href: "../LminadoOculto.html",
     target: "_blank",
     className: "pdf-link"
   }, " aqui")))));

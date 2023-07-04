@@ -1,7 +1,7 @@
 
 import _ from 'lodash';
 
-const logo= '../sword.png'
+const logo= '../images/sword.png'
 function App() {
   return (
     <div className="container">
@@ -13,7 +13,7 @@ function App() {
             <h1 className="bemvindo">Bem vindo</h1>
             <p className="slogan">O sistema de rpg Lâmina do Oculto é para todos os jogadores <br/>que querem uma nova forma de jogar fantasia clássica</p>
             <p className="clique">Clique na espada ao lado para começar<br/> Leia o documento em texto 
-                <a href="https://docs.google.com/document/d/1d3rvWryWF0ju3VQ1ehP0EpVZWnGRgAufeWAeYOhAet0/edit?usp=sharing" target="_blank"  className="pdf-link"> aqui</a>
+                <a href="../LminadoOculto.html" target="_blank"  className="pdf-link"> aqui</a>
             </p>
           </div>
       </div>
