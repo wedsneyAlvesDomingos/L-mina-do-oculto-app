@@ -1,11 +1,11 @@
 
 import _ from 'lodash';
-
 const logo= '../images/sword.png'
+import 
 function App() {
   return (
     <div className="container">
-     <a href="./pages/interface-principal.html" class="botao-entrar"></a>
+     <a href="" class="botao-entrar"></a>
       <div className="abertura">
            <h1 className="titulo-principal">Lâmina Do Oculto</h1>
           
