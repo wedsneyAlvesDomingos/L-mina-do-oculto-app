@@ -1,13 +1,21 @@
 const path = require('path');
 var webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const toml = require('toml');
 const yaml = require('yamljs');
 const json5 = require('json5');
 module.exports = {
-  entry: './src/index.js',
+  mode: 'development',
+  entry: {index:'./src/index.js', interfacePrincipal:'./src/interface-principal.js'},
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/pages/index.html',
+    }),
+  ],
   output: {
-    filename: 'index.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    clean: true,
   },
   
     module: {

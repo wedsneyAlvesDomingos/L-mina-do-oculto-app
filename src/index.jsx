@@ -2,11 +2,13 @@
 import _ from 'lodash';
 import '../css/css-reset.css';
 import '../css/index.css';
-import '../dist/index.js';
+import { render, createRoot } from 'react-dom/client';
+import React from 'react';
+
 function App() {
   return (
     <div className="container">
-     <a href="./pages/interface-principal.html" class="botao-entrar"></a>
+     <a href="../src/pages/interface-principal.html" className="botao-entrar"></a>
       <div className="abertura">
            <h1 className="titulo-principal">Lâmina Do Oculto</h1>
           
@@ -21,6 +23,7 @@ function App() {
    </div>
   );
 }
-
-ReactDOM.render(<App />, document.getElementById('root'));
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<App />);
 
